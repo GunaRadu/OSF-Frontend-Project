@@ -1,0 +1,78 @@
+html
+{
+	min-width: 100%;
+	min-height: 100%;
+}
+body
+{
+	background-image: url(../img/login_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box .container h1
+{
+	color:rgb(87, 201, 163);
+	text-align: center;
+	font-size: 100px;
+}
+.box .login
+{
+	background: rgb(87, 201, 163);
+	border:2px solid rgb(87, 201, 163);
+	width: 300px;
+	height: 350px;
+	opacity: .7;
+	margin-left: 700px;
+	border-radius: 45px;
+
+}
+
+.box .login form
+{
+	text-align: center;
+}
+.box .login form h2
+{
+	color: #fff;
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+.box .login form hr
+{
+	color:#fff;
+}
+.box .login form p
+{
+	text-align: center;
+	color:#fff;
+}
+.box .login form input
+{
+	width: 200px;
+	border-radius: 15px;
+	height: 20px;
+}
+.box .login form input[placeholder="E-mail"]
+{
+	text-align: center;
+	color: #000033;
+}
+.box .login form input[placeholder="Password"]
+{
+	text-align: center;
+	color: #000033;
+}
+.box .login button
+{
+	margin-left: 100px;
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	color: #000033;
+	opacity: .8;
+}
+.box .login  a:hover button
+{
+	color:#000033;
+	opacity: .7;
+}
